@@ -9,7 +9,7 @@ Edit your `~/.stack/config.yaml` and add a default-template:
 ```yaml
 # other stuff
 ...
-default-template: https://github.com/enolive/haskell-templates/raw/master/tdd.hsfiles
+default-template: https://raw.githubusercontent.com/enolive/haskell-templates/master/tdd.hsfiles
 ```
 
 ## TDD
@@ -17,5 +17,5 @@ default-template: https://github.com/enolive/haskell-templates/raw/master/tdd.hs
 Basic Setup to start doing TDD with Haskell
 
 ```
-stack new my-cool-app https://github.com/enolive/haskell-templates/raw/master/tdd.hsfiles
+stack new my-cool-app https://raw.githubusercontent.com/enolive/haskell-templates/master/tdd.hsfiles
 ```
