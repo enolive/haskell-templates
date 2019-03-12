@@ -59,8 +59,8 @@ module DemoSpec
   ( spec
   ) where
 
-# NOTE: you can safely delete this file and create your own spec
-# or edit it to your liking!
+-- NOTE: you can safely delete this file and create your own spec
+-- or edit it to your liking!
 import           Test.Hspec
 import           Test.QuickCheck
 
