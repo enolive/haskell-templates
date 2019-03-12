@@ -59,6 +59,8 @@ module DemoSpec
   ( spec
   ) where
 
+# NOTE: you can safely delete this file and create your own spec
+# or edit it to your liking!
 import           Test.Hspec
 import           Test.QuickCheck
 
@@ -66,7 +68,7 @@ main :: IO ()
 main = hspec spec
 
 spec :: Spec
-spec = describe "Mars Rover" $
+spec = describe "Demo Test for the Framework" $
   context "something" $ do
     it "should work" $ 
       True `shouldBe` False
